@@ -1,0 +1,7 @@
+.git
+.env
+.DS_Store
+__pycache__/
+.venv
+.aws/
+# /dags/s3_testing.py
