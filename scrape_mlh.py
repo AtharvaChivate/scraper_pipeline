@@ -12,8 +12,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def fetch_hackathons(base_url):
     all_hackathons = []
     headers = {
-        'User-Agent': 'Mozilla/5.0'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
     }
+
 
     logging.info(f"Fetching data from URL: {base_url}")
     response = requests.get(base_url, headers=headers)
