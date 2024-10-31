@@ -1,9 +1,9 @@
 name: Run Pipeline
 
 on:
-  schedule:
-    - cron: '0 0 */3 * *'  # Runs every three days at midnight
-  workflow_dispatch:  # Allows manual trigger if needed
+  # schedule:
+  #   - cron: '0 0 */3 * *'  # Runs every three days at midnight
+  # workflow_dispatch:  # Allows manual trigger if needed
 
 jobs:
   run-pipeline:
